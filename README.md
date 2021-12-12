@@ -1,5 +1,3 @@
-# spotifyprediction
-
 # Problem
 The datasets contain the measures of the song features for roughly 41,000 songs from 1960 to 2019. The target column indicates if a song is a Hit or Flop. Hit songs are the ones that have been featured on the Billboard at least once. There is not a clear answer on which song features are most important in making a song a Hit. 
 
