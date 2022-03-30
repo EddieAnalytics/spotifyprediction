@@ -329,7 +329,6 @@ ggplot(data = df, aes(Danceability, Loudness)) +
 ggplot(data = df,aes(x = Loudness, y = Danceability, color=Decade)) +
   geom_point(alpha = 1) 
 
-  
 #Combined Bar graph
 ggplot(data = df , aes(Decade, fill=Target)) + 
 geom_bar(aes(x = Decade, y = Loudness, alpha=0.9, ), stat = "summary") +
@@ -338,6 +337,7 @@ geom_bar(aes(x = Decade, y = Loudness, alpha=0.9, ), stat = "summary") +
   ggtitle("Loudness vs Decade")+
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5))
+  
 
 
 
